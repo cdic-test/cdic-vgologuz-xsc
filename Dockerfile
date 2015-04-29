@@ -7,4 +7,4 @@ RUN dnf copr enable -y msuchy/copr
 RUN dnf clean all
 
 ### CDIC END
-RUN dnf instal -y corp-frontend
+RUN dnf install -y corp-frontend
